@@ -20,11 +20,12 @@ Před spuštěním projektu se ujistěte, že máte nainstalované následujíc�
    git clone https://github.com/wannabe20/laravel_projekt_skupina_uz_vazne.git
    ```
 Nainstalujte závislosti
-Přejděte do složky projektu a nainstalujte všechny závislosti pomocí Composeru:
+Přejděte do složky projektu a nainstalujte všechny závislosti pomocí Composeru a npm:  (bez npm se nenainstaluje Vite) 
 
 ```
-cd název_repozitáře
+cd eshop_zbrane
 composer install
+npm install
 ```
 Konfigurace prostředí
 
