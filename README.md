@@ -34,6 +34,14 @@ Zkopírujte soubor .env.example do .env pomocí příkazového řádku:
 copy .env.example .env
 ```
 Ujistěte se, že máte správně nastavené připojení k databázi (v souboru .env upravte hodnoty DB_DATABASE, DB_USERNAME a DB_PASSWORD podle vaší lokální MySQL databáze).
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
 Generování aplikačního klíče
 
