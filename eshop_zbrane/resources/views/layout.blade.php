@@ -3,15 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Gun Store</title>
     @vite(['resources/js/app.js'])
     @vite('resources/css/layout.css')
     
 </head>
 <body>
-<nav class="navbar">
+    <div class="top-bar">
+        <div class="contact-info">
+            <a class="email" href="mailto:info@gunstore.cz">Email: info@gunstore.com</a>
+            <span class="line"> | </span>
+            <a class="phone" href="tel: +420 123 456 789" >Telefon: +420 123 456 789</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Vyhledávání...">
+            <button type="submit">Hledat</button>
+        </div>
+    </div>
+
+    <nav class="navbar">
         <div class="logo">
-            <a href="#">Logo</a>
+            <a href="#">
+                <img src="{{asset('logo.png') }}"> 
+            </a>
         </div>
         <ul class="menu">
             <li><a href="/">HOME</a></li>
