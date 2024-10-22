@@ -7,10 +7,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Dummy routes for Categories, Equipment, and Others
-Route::get('/categories', function () {
-    return view('categories');
-});
+// Dummy routes for guns, Equipment, and Others
+Route::get('/guns', [GunController::class, 'index']);
 
 Route::get('/equipment', function () {
     return view('equipment');
