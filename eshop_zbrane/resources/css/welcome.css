@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
+/* Začátek welcome CSS!!! */
 .welcome-body {
     font-family: "Protest Strike", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,21 +19,27 @@
 }
 
 .welcome-title {
-    font-size: 48px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 20px;
 }
 
 .welcome-subtitle {
-    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
 .welcome-button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 10px 40px;
     font-size: 18px;
-    color: white;
-    background-color: #a3a380;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #8e8b6f;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -42,5 +47,94 @@
 }
 
 .welcome-button:hover {
-    background-color: #8e8b6f;
+    background-color: #a3a380;
 }
+/* Konec první sekce CSS!!! */
+
+/* Druha sekce populární zbraně na webu CSS!!!*/
+.Popular_product-section {
+    padding: 50px;
+    background-color: #333;
+    text-align: center;
+}
+
+.product-title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.product-image {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.badge {
+    position: absolute;
+    margin-bottom: 10px;
+    right: 10px;
+    background-color: #111;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+
+.product-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.product-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.add-to-cart_Btn {
+    background-color: #8e8b6f;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart_Btn:hover {
+    background-color: #a3a380;
+}
+/* Konec druhé sekce CSS!!! */
