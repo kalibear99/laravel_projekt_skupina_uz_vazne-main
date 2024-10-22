@@ -29,7 +29,7 @@
 
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="/">
                 <img src="{{asset('logo.png') }}"> 
             </a>
         </div>

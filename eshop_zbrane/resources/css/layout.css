@@ -64,11 +64,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #8e8b6f;
-    padding: 10px 20px;
-    height: 80px;
+    height: autopx;
 }
 .logo img {
-    width: 50px;
+    margin-left: 50px;
+    width: 80px;
 
 }
 
@@ -102,7 +102,7 @@ body {
     padding-right: 10px;
 }
 
-.cart, .language-toggle {
+.cart {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -116,6 +116,21 @@ body {
     transition: background-color 0.3s;
 }
 
+.language-toggle{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    margin-right: 50px;
+}
+
 .cart svg {
     margin-right: 5px;
 }
@@ -123,3 +138,4 @@ body {
 .cart:hover, .language-toggle:hover {
     background-color: #555;
 }
+
