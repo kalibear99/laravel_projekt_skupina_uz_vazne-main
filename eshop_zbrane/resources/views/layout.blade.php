@@ -36,9 +36,8 @@
         <ul class="menu">
             <li><a href="/">HOME</a></li>
             <li><a href="#">O NÁS</a></li>
-            <li><a href="./guns">ZBRANĚ</a></li>
-            <li><a href="#">STŘELIVO</a></li>
-            <li><a href="#">DOPLŇKY KE ZBRANÍM</a></li>
+            <li><a href="./guns">ZBRANĚ a STŘELIVO</a></li>
+            <li><a href="./equipment.blade.php">DOPLŇKY KE ZBRANÍM</a></li>
             <li><a href="#">NOŽE</a></li>
         </ul>
         <div class="right-side">

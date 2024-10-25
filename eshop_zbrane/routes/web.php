@@ -21,8 +21,4 @@ Route::get('/others', function () {
 
 
 
-// Route::get('/', [GunController::class, 'index']);
-// Route::get('/guns/{id}', [GunController::class, 'show']);
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+

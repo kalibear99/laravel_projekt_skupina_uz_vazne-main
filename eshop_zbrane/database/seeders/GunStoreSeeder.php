@@ -15,23 +15,37 @@ class GunStoreSeeder extends Seeder
 
         Gun::create([
             'name' => 'Glock 19',
-            'description' => 'A compact, reliable 9mm pistol.',
-            'price' => 500.00,
+            'description' => 'Kompaktní, spolehlivá 9mm',
+            'price' => 20000,
             'category_id' => $category1->id,
         ]);
 
         Gun::create([
             'name' => 'AR-15',
-            'description' => 'A lightweight, magazine-fed, gas-operated rifle.',
-            'price' => 1200.00,
+            'description' => 'Lehká plynová zbraň',
+            'price' => 20000,
             'category_id' => $category2->id,
         ]);
 
         Gun::create([
             'name' => 'Remington 870',
-            'description' => 'A classic pump-action shotgun.',
-            'price' => 400.00,
+            'description' => 'Klasická pumpovací brokovnice',
+            'price' => 10000,
             'category_id' => $category3->id,
+        ]);
+
+        Gun::create([
+            'name' => 'Glock 17',
+            'description' => 'Modovaný 45154998',
+            'price' => 18390,
+            'category_id' => $category1->id,
+        ]);
+
+        Gun::create([
+            'name' => 'Revolver',
+            'description' => 'Silný revolver ráže .355',
+            'price' => 22000,
+            'category_id' => $category1->id,
         ]);
     }
 }
