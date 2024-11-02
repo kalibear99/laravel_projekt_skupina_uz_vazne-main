@@ -16,7 +16,7 @@
             </div>
                 
             @endforeach
-        <p>Více momentálně není naskladněné</p>
+
     @else
         <p>Momentálně nemáme skladem žádné zboží tohodle typu. Omlouváme se.</p>
     @endif
