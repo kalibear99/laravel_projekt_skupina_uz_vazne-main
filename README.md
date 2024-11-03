@@ -43,6 +43,7 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+Zapneme Xampp-control-panel a zapneme MySQL //databáze v projektu běží na MySQL
 
 Generování aplikačního klíče
 
@@ -66,8 +67,6 @@ Pokud chcete naplnit databázi počátečními daty (kategorie a zbraně), spus�
 php artisan db:seed --class=GunStoreSeeder
 ```
 Spuštění serveru
-
-Zapneme Xampp-control-panel a zapneme MySQL //databáze v projektu běží na MySQL
 
 Poté spusťte vestavěný server Laravelu příkazem:
 Jeden napište do jednoho terminálu a druhý do dalšího
