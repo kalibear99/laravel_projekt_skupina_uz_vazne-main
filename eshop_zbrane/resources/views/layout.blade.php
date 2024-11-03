@@ -34,7 +34,6 @@
         </div>
         <ul class="menu">
             <li><a href="#">HOME</a></li>
-            <li><a href="#">O NÁS</a></li>
             <li><a href="#">ZBRANĚ</a></li>
             <li><a href="#">STŘELIVO</a></li>
             <li><a href="#">DOPLŇKY KE ZBRANÍM</a></li>
