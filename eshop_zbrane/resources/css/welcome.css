@@ -359,3 +359,72 @@
     max-height: 100%;
     object-fit: contain;
 }
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: #8e8b6f;
+}
+
+.logo-container{
+width: 10px;
+}
+
+.contact_information-title {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contact_ContactUS-title {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contact-info .icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    width: 110px;
+    padding-bottom: 20px;
+    color: #111;
+}
+
+.contact-button {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s; 
+}
+
+.footer {
+    background-color: #222;
+    padding: 20px;
+}
+
+.footer h1 {
+    text-align: center;
+    color: #a3a380;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
