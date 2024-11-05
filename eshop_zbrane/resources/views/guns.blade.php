@@ -8,7 +8,7 @@
     <div class="product-grid">
             @foreach($guns as $gun)
             <div class="product-card">
-                
+                <img src="" alt="{{ $gun->image }}">
                     <h3 class="product-name">{{ $gun->name }}</h3>
                     <p class="product-description">{{ $gun->description }}</p>
                     <p class="product-price"><strong>Cena:</strong> {{ $gun->price }} CZK</p>
