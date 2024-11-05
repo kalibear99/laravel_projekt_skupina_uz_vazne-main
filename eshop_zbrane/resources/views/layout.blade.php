@@ -12,6 +12,7 @@
     <title>Gun Store</title>
     @vite(['resources/js/app.js'])
     @vite('resources/css/layout.css')
+    
 </head>
 <body>
     <div class="top-bar">
@@ -28,16 +29,29 @@
 
     <nav class="navbar">
         <div class="logo">
-            <a href="#">
+            <a href="/">
                 <img src="{{asset('logo.png') }}"> 
             </a>
         </div>
+        <!-- Ikona burger menu pro mobilní zařízení -->
+    <div class="burger-icon" onclick="toggleMenu()">☰</div>
+
+    <!-- Skryté navigační menu, zobrazí se po kliknutí na ikonu burger menu -->
+    <ul class="menu" id="mobileMenu">
+        <li><a href="/">Home</a></li>
+        <li><a href="./guns">Zbraně a Střelivo</a></li>
+        <li><a href="./equipment">Doplňky ke zbraním</a></li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">Nože</a></li>
+    </ul>
+    </div>
         <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ZBRANĚ</a></li>
-            <li><a href="#">STŘELIVO</a></li>
-            <li><a href="#">DOPLŇKY KE ZBRANÍM</a></li>
-            <li><a href="#">NOŽE</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="./guns">Zbraně a Střelivo</a></li>
+            <li><a href="./equipment">Doplňky ke zbraním</a></li>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Nože</a></li>
+
         </ul>
         <div class="right-side">
             <a href="#" class="cart">
@@ -55,3 +69,11 @@
     </div>
 </body>
 </html>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById("mobileMenu");
+        menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    }
+</script>
+
