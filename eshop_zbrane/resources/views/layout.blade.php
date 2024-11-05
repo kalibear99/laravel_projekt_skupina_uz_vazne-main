@@ -51,6 +51,7 @@
             <li><a href="./equipment">Doplňky ke zbraním</a></li>
             <li><a href="#">O nás</a></li>
             <li><a href="#">Nože</a></li>
+
         </ul>
         <div class="right-side">
             <a href="#" class="cart">
