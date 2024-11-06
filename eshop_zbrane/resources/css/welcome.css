@@ -351,7 +351,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .brand-card img {
@@ -361,15 +360,47 @@
 }
 
 
+/* Začátek Kontakt sekce */
+
+.contact-map {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 50px;
+}
+
+.contact-infotmation {
+    display: flex;
+    justify-content: space-around
+    
+}
+
 .contact-container {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
     background-color: #8e8b6f;
+    flex-direction: column;
 }
 
 .logo-container{
-width: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.logo-container img {
+    width: 225px;
+    height: 120px;
+}
+
+.contact-menu {
+    list-style-type: none;
+}
+
+.contact-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .contact_information-title {
@@ -402,6 +433,9 @@ width: 10px;
     gap: 15px;
     width: 110px;
     padding-bottom: 20px;
+}
+
+.social-icons i {
     color: #111;
 }
 
@@ -416,6 +450,30 @@ width: 10px;
     font-family: "Montserrat", sans-serif;
     transition: background-color 0.3s; 
 }
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.post-card {
+    background-color: white;
+    border: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 150px; 
+    height: 80px;
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+
+.post-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 .footer {
     background-color: #222;
