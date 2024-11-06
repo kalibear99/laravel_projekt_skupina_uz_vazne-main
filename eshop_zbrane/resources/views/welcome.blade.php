@@ -37,8 +37,8 @@
     <!-- Druhá sekce kde jsou populární zbraně -->
     <section class="Popular_product-section">
         <h2 class="product-title">POPULÁRNÍ ZBRANĚ</h2>
-        <div class="product-grid">
-            <div class="product-card">
+        <div class="new-product-grid">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('zbrane/glock 17.avif') }}" alt="Pistol">
                 </div>
@@ -47,7 +47,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
  
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('zbrane/revolver.png') }}" alt="Rifle">
                 </div>
@@ -56,7 +56,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
 
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('zbrane/beretta.png') }}" alt="Rifle">
                 </div>
@@ -65,7 +65,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
 
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('zbrane/heckler-koch.png') }}" alt="Rifle">
                 </div>
@@ -172,13 +172,21 @@
 <!-- Poslední sekce Kontaktovat -->
 
 <section class="contact-section">
+
+    <div class="contact-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.609250551443!2d17.693298476328145!3d49.22693717138454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713736217f47a19%3A0x13c5fafd124ff449!2zU3TFmWVkbsOtIMWha29sYSBCYWx0YWNpIHMuci5vLg!5e0!3m2!1scs!2scz!4v1730840342502!5m2!1scs!2scz" width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <div class="contact-container">
+
+    <div class="contact-infotmation">
         <div class="logo-container">
-            <img src="" alt="Logo" class="logo">
+        <a href="/">
+                <img src="{{asset('logo.png') }}"> 
+            </a>
         </div>
         <div class="menu-container">
             <h2 class="contact_information-title" >Informace</h2>
-            <ul class="menu">
+            <ul class="contact-menu">
                 <li><a href="#home">Domů</a></li>
                 <li><a href="#products">Produkty</a></li>
                 <li><a href="#about">O nás</a></li>
@@ -214,8 +222,20 @@
                     <i class="fa-brands fa-x-twitter fa-xl"></i>
                 </a>
             </div>
-            <button class="contact-button">Kontaktní formulář</button>
-        </div>
+                <button class="contact-button">Kontaktní formulář</button>
+            </div>
+    </div>
+        <div class="post-container">
+            <div class="post-card">
+                <img src="{{ asset('Post/ceska-posta-logo.png') }}" alt="ceskaposta">
+            </div>
+            <div class="post-card">
+                <img src="{{ asset('Post/ppl.png') }}" alt="ppl">
+            </div>
+            <div class="post-card">
+                <img src="{{ asset('Post/zasilkovna-cz.png') }}" alt="zasilkovna">
+            </div>
+         </div>
     </div>
 </section>
 <!-- Konec sekce kontaktovat -->

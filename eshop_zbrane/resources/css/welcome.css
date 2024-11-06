@@ -91,9 +91,8 @@ h1, .product-title {
 
 .product-grid {
     display: flex;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-card {
@@ -179,6 +178,7 @@ h1, .product-title {
 
 .new-product-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -210,7 +210,6 @@ h1, .product-title {
     font-weight: 400;
     color: #fff;
     font-size: 15px;
-
     margin-bottom: 10px;
     text-align: left;
 }
@@ -229,6 +228,14 @@ h1, .product-title {
     text-align: left;
 }
 
+.new-product-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
 
 .add-to-cart_Btn {
     background-color: var(--primary-color);
@@ -257,7 +264,7 @@ h1, .product-title {
     font-size: 12px;
     font-weight: bold;
     border-radius: 50px;
-  
+}
 /* konec třetí sekce CSS!!! */
 
 /* O nás sekce CSS!!! */
@@ -373,7 +380,6 @@ h1, .product-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .brand-card img {
@@ -383,15 +389,48 @@ h1, .product-title {
 }
 
 
+/* Začátek Kontakt sekce */
+
+.contact-map {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 50px;
+}
+
+.contact-infotmation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
 .contact-container {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
     background-color: #8e8b6f;
+    flex-direction: column;
 }
 
 .logo-container{
-width: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.logo-container img {
+    width: 225px;
+    height: 120px;
+}
+
+.contact-menu {
+    list-style-type: none;
+}
+
+.contact-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .contact_information-title {
@@ -424,6 +463,9 @@ width: 10px;
     gap: 15px;
     width: 110px;
     padding-bottom: 20px;
+}
+
+.social-icons i {
     color: #111;
 }
 
@@ -438,6 +480,30 @@ width: 10px;
     font-family: "Montserrat", sans-serif;
     transition: background-color 0.3s; 
 }
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.post-card {
+    background-color: white;
+    border: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 150px; 
+    height: 80px;
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+
+.post-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 .footer {
     background-color: #222;
