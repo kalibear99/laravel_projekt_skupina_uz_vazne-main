@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --primary-color: #8e8b6f;
     --primary-hover: #a3a380;
@@ -137,6 +138,7 @@ h1, .product-title {
     display: flex;
     justify-content: left;
     background-color: #8e8b6f;
+    text-decoration: none;
     color: white;
     padding: 5px;
     border: none;
@@ -145,6 +147,8 @@ h1, .product-title {
     font-family: "Montserrat", sans-serif;
     transition: background-color 0.3s;
 }
+
+
 
 .add-to-cart_Btn:hover {
     background-color: #a3a380;
@@ -416,11 +420,23 @@ h1, .product-title {
 .logo-container{
     display: flex;
     justify-content: left;
+    margin-left: 50px;
 }
 
 .logo-container img {
-    width: 225px;
-    height: 120px;
+    width: 150px;
+    height: 75px;
+}
+
+.menu li a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
 }
 
 .contact-menu {
@@ -567,5 +583,4 @@ h1, .product-title {
         max-width: 250px;
         margin: 10px auto;
     }
-}
 }

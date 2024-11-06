@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+@vite('resources/css/welcome.css')
     <h2>Košík</h2>
 
     @if(session('cart') && count(session('cart')) > 0)
