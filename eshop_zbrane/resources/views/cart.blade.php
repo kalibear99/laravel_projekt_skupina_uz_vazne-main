@@ -7,7 +7,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>Obrázek</th>
+                    
                     <th>Název</th>
                     <th>Cena</th>
                     <th>Množství</th>
@@ -18,7 +18,7 @@
             <tbody>
                 @foreach(session('cart') as $id => $details)
                     <tr>
-                        <td><img src="{{ asset('images/knives/' . $details['image']) }}" alt="{{ $details['name'] }}" class="product-image" width="50"></td>
+                        
                         <td>{{ $details['name'] }}</td>
                         <td>{{ $details['price'] }} CZK</td>
                         <td>{{ $details['quantity'] }}</td>
