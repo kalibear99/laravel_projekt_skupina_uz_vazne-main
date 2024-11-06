@@ -214,6 +214,20 @@ h1, .product-title {
     text-align: left;
 }
 
+
+.new-product-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+.product-description {
+    color: var(--text-muted);
+    font-size: 15px;
+    text-align: left;
+}
+
 .new-product-price {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -553,4 +567,5 @@ h1, .product-title {
         max-width: 250px;
         margin: 10px auto;
     }
+}
 }

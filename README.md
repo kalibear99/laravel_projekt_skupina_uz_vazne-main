@@ -6,7 +6,7 @@ Tento projekt je jednoduchý e-shop se zbraněmi vytvořený pomocí frameworku 
 
 Před spuštěním projektu se ujistěte, že máte nainstalované následující:
 
-- PHP (verze 8.0 nebo novější)
+- PHP (verze 8.1 nebo novější)
 - Composer
 - MySQL nebo jiný databázový server
 
@@ -74,7 +74,7 @@ Jeden napište do jednoho terminálu a druhý do dalšího
 npm run dev
 php artisan serve
 ```
-Aplikaci nyní můžete navštívit na adrese 127..
+Aplikaci nyní můžete navštívit na adrese 127.0.0.1:8000
 
 Created by: Lukáš Prchlík, Darien Kalist, Šimon Čada, Simon Melichar, David Krupík
 

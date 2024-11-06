@@ -40,7 +40,7 @@
         <div class="new-product-grid">
             <div class="new-product-card">
                 <div class="product-image">
-                    <img src="{{asset('Guns/glock 17.avif') }}" alt="Pistol">
+                    <img src="{{asset('zbrane/glock 17.avif') }}" alt="Pistol">
                 </div>
                 <h3 class="product-name">Glock 17 cal. 9mm Luger</h3>
                 <p class="product-price"><b>16 160 Kč</b></p>
@@ -49,7 +49,7 @@
  
             <div class="new-product-card">
                 <div class="product-image">
-                    <img src="{{asset('Guns/revolver.png') }}" alt="Rifle">
+                    <img src="{{asset('zbrane/revolver.png') }}" alt="Rifle">
                 </div>
                 <h3 class="product-name">Revolver</h3>
                 <p class="product-price"><b>22 250 Kč</b></p>
@@ -58,7 +58,7 @@
 
             <div class="new-product-card">
                 <div class="product-image">
-                    <img src="{{asset('Guns/beretta.png') }}" alt="Rifle">
+                    <img src="{{asset('zbrane/beretta.png') }}" alt="Rifle">
                 </div>
                 <h3 class="product-name">Beretta 92FS cal. 9mm Luger </h3>
                 <p class="product-price"><b>28 250 Kč</b></p>
@@ -67,7 +67,7 @@
 
             <div class="new-product-card">
                 <div class="product-image">
-                    <img src="{{asset('Guns/heckler-koch.png') }}" alt="Rifle">
+                    <img src="{{asset('zbrane/heckler-koch.png') }}" alt="Rifle">
                 </div>
                 <h3 class="product-name">Heckler & Koch P30 V3 cal. 9mm Luger</h3>
                 <p class="product-price"><b>23 500 Kč</b></p>
@@ -84,7 +84,7 @@
         <div class="new-product-grid">
             <div class="new-product-card">
                 <div class="new-product-image">
-                    <img src="{{asset('Knives/knife.png') }}" alt="Nová zbraň">
+                    <img src="{{asset('noze/knife.png') }}" alt="Nová zbraň">
                     <div class="badge">NEW</div>
                 </div>
                 <h3 class="new-product-name">JOKER BUFFALO HORN SCALES PACHON NF99 </h3>
@@ -94,7 +94,7 @@
  
             <div class="new-product-card">
                 <div class="new-product-image">
-                    <img src="{{asset('Knives/second-knife.webp') }}" alt="Nová zbraň">
+                    <img src="{{asset('noze/second-knife.webp') }}" alt="Nová zbraň">
                     <div class="badge">NEW</div>
                 </div>
                 <h3 class="new-product-name">JOKER KNIFE TERRIER BLADE 9cm. NB20 </h3>
@@ -104,7 +104,7 @@
 
             <div class="new-product-card">
                 <div class="new-product-image">
-                    <img src="{{asset('Guns/scorpion.png') }}" alt="Nová zbraň">
+                    <img src="{{asset('zbrane/scorpion.png') }}" alt="Nová zbraň">
                     <div class="badge">NEW</div>
                 </div>
                 <h3 class="new-product-name">CZ SCORPION EVO 3 S1 cal. 9mm Luger</h3>
@@ -114,7 +114,7 @@
 
             <div class="new-product-card">
                 <div class="new-product-image">
-                    <img src="{{asset('Guns/DesertEagle.avif') }}" alt="Nová zbraň">
+                    <img src="{{asset('zbrane/DesertEagle.avif') }}" alt="Nová zbraň">
                     <div class="badge">NEW</div>
                 </div>
                 <h3 class="new-product-name">Desert Eagle XIX 6" Black cal. 50 AE </h3>
