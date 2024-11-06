@@ -37,8 +37,8 @@
     <!-- Druhá sekce kde jsou populární zbraně -->
     <section class="Popular_product-section">
         <h2 class="product-title">POPULÁRNÍ ZBRANĚ</h2>
-        <div class="product-grid">
-            <div class="product-card">
+        <div class="new-product-grid">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('Guns/glock 17.avif') }}" alt="Pistol">
                 </div>
@@ -47,7 +47,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
  
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('Guns/revolver.png') }}" alt="Rifle">
                 </div>
@@ -56,7 +56,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
 
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('Guns/beretta.png') }}" alt="Rifle">
                 </div>
@@ -65,7 +65,7 @@
                 <button class="add-to-cart_Btn">Přidat do košíku</button>
             </div>
 
-            <div class="product-card">
+            <div class="new-product-card">
                 <div class="product-image">
                     <img src="{{asset('Guns/heckler-koch.png') }}" alt="Rifle">
                 </div>
@@ -180,7 +180,9 @@
 
     <div class="contact-infotmation">
         <div class="logo-container">
-            <img src="{{asset('logo.png') }}" alt="Logo">
+        <a href="/">
+                <img src="{{asset('logo.png') }}"> 
+            </a>
         </div>
         <div class="menu-container">
             <h2 class="contact_information-title" >Informace</h2>

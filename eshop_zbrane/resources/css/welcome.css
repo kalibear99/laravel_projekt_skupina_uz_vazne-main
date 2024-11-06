@@ -91,9 +91,8 @@ h1, .product-title {
 
 .product-grid {
     display: flex;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-card {
@@ -179,6 +178,7 @@ h1, .product-title {
 
 .new-product-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -386,7 +386,8 @@ h1, .product-title {
 
 .contact-infotmation {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 
