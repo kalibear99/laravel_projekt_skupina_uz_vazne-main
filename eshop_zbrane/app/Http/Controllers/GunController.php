@@ -11,7 +11,7 @@ class GunController extends Controller
     public function index()
     {
         $guns = Gun::with('category')->get();
-        return view('guns.index', compact('guns'));
+        return view('guns', compact('guns'));
     }
 
     public function show($id)

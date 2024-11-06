@@ -3,22 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Gun Store</title>
     @vite(['resources/js/app.js'])
     @vite('resources/css/layout.css')
+    
 </head>
 <body>
-<nav class="navbar">
-        <div class="logo">
-            <a href="#">Logo</a>
+    <div class="top-bar">
+        <div class="contact-info">
+            <a class="email" href="mailto:info@gunstore.cz">Email: info@gunstore.com</a>
+            <span class="line"> | </span>
+            <a class="phone" href="tel: +420 123 456 789" >Telefon: +420 123 456 789</a>
         </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Vyhledávání...">
+            <button type="submit">Hledat</button>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">
+                <img src="{{asset('logo.png') }}"> 
+            </a>
+        </div>
+        <!-- Ikona burger menu pro mobilní zařízení -->
+    <div class="burger-icon" onclick="toggleMenu()">☰</div>
+
+    <!-- Skryté navigační menu, zobrazí se po kliknutí na ikonu burger menu -->
+    <ul class="menu" id="mobileMenu">
+        <li><a href="/">Home</a></li>
+        <li><a href="./guns">Zbraně a Střelivo</a></li>
+        <li><a href="./equipment">Doplňky ke zbraním</a></li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">Nože</a></li>
+    </ul>
+    </div>
         <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">O NÁS</a></li>
-            <li><a href="#">ZBRANĚ</a></li>
-            <li><a href="#">STŘELIVO</a></li>
-            <li><a href="#">DOPLŇKY KE ZBRANÍM</a></li>
-            <li><a href="#">NOŽE</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="./guns">Zbraně a Střelivo</a></li>
+            <li><a href="./equipment">Doplňky ke zbraním</a></li>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Nože</a></li>
+
         </ul>
         <div class="right-side">
             <a href="#" class="cart">
@@ -36,3 +69,11 @@
     </div>
 </body>
 </html>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById("mobileMenu");
+        menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    }
+</script>
+
