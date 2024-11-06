@@ -12,14 +12,12 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database.
      */
 
-
     public function run()
-{
-    $this->call([
-        GunStoreSeeder::class,
-        AmmunitionSeeder::class, 
-    ]);
+    {
+        $this->call([
+            GunStoreSeeder::class,
+            AmmunitionSeeder::class,
+            KnifeStoreSeeder::class, // Přidáno: KnifeStoreSeeder pro naplnění tabulky nožů
+        ]);
+    }
 }
-
-}
-

@@ -116,6 +116,118 @@ h1, .product-title {
     border-radius: 8px;
 }
 
+.product-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.product-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.add-to-cart_Btn {
+    display: flex;
+    justify-content: left;
+    background-color: #8e8b6f;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart_Btn:hover {
+    background-color: #a3a380;
+}
+/* Konec druhé sekce CSS!!! */
+
+
+/* Začátek třetí sekce CSS */
+.New_products-section {
+    padding: 50px;
+    background-color: #333;
+    text-align: center;
+}
+
+.new-product-title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.new-product-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #8e8b6f;
+    margin: 15px auto 0;
+}
+
+.new-product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new-product-card {
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    min-width: 150px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.new-product-image {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.new-product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.new-product-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.new-product-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+.product-description {
+    color: var(--text-muted);
+    font-size: 15px;
+    text-align: left;
+}
 
 
 .add-to-cart_Btn {
@@ -389,4 +501,5 @@ width: 10px;
         max-width: 250px;
         margin: 10px auto;
     }
+}
 }
